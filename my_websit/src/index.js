@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import history from "./history";
-import Routes from './routes';
-
-import './index.css';
 import * as serviceWorker from './serviceWorker';
+import App from './components/App/App';
+import './index.css';
 
 ReactDOM.render(
-  <Routes />,
+  <App />,
   document.getElementById('root'),
 );
 

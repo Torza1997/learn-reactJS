@@ -1,0 +1,36 @@
+/*************************gellery**********************/
+.container-gellery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+/********************contact***********************/
+.container_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background-image: url("../img/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+/********************contact***********************/
+.container_profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background-image: url("../img/img.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}

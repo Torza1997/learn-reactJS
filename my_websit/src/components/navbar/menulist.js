@@ -1,0 +1,22 @@
+export const Memu_list =[
+    {
+        title:"home",
+        Url:"/",
+        Class:"nav-links"
+    },
+    {
+        title:"profile",
+        Url:"profile",
+        Class:"nav-links"
+    },
+    {
+        title:"gellery",
+        Url:"gellery",
+        Class:"nav-links"
+    },
+    {
+        title:"contacts",
+        Url:"contact",
+        Class:"nav-links"
+    }
+]
