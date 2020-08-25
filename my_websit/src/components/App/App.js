@@ -7,6 +7,14 @@ import Contact from '../page/contact';
 import Profile from '../page/profile';
 import "./style.css";
 
+let mysql = require('mysql');
+let con = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "learn"
+});
+
 function App(){
     return (
       <Router >
@@ -22,7 +30,7 @@ function App(){
     </Router>
     );
 }
-const Home =() =>(
+const Home =()=>(
   <div>
        <div className = "container_home">
           <h1>HOME</h1>
